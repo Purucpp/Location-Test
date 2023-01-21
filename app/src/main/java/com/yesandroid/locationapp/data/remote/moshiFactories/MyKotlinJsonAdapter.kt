@@ -1,4 +1,4 @@
-package com.task.data.remote.moshiFactories
+package com.yesandroid.locationapp.data.remote.moshiFactories
 
 import com.squareup.moshi.*
 import com.squareup.moshi.internal.Util

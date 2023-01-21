@@ -1,7 +1,7 @@
-package com.task.data.remote
+package com.yesandroid.locationapp.data.remote
 
-import com.task.data.Resource
-import com.task.data.dto.recipes.Recipes
+import com.yesandroid.locationapp.data.Resource
+import com.yesandroid.locationapp.data.dto.recipes.Recipes
 
 /**
  * Created by AhmedEltaher

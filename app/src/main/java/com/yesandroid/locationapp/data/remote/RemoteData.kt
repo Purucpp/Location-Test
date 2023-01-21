@@ -1,12 +1,12 @@
-package com.task.data.remote
+package com.yesandroid.locationapp.data.remote
 
-import com.task.data.Resource
-import com.task.data.dto.recipes.Recipes
-import com.task.data.dto.recipes.RecipesItem
-import com.task.data.error.NETWORK_ERROR
-import com.task.data.error.NO_INTERNET_CONNECTION
-import com.task.data.remote.service.RecipesService
-import com.task.utils.NetworkConnectivity
+import com.yesandroid.locationapp.data.Resource
+import com.yesandroid.locationapp.data.dto.recipes.Recipes
+import com.yesandroid.locationapp.data.dto.recipes.RecipesItem
+import com.yesandroid.locationapp.data.error.NETWORK_ERROR
+import com.yesandroid.locationapp.data.error.NO_INTERNET_CONNECTION
+import com.yesandroid.locationapp.data.remote.service.RecipesService
+import com.yesandroid.locationapp.utils.NetworkConnectivity
 import retrofit2.Response
 import java.io.IOException
 import javax.inject.Inject

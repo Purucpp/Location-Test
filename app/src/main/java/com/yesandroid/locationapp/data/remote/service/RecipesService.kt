@@ -1,6 +1,6 @@
-package com.task.data.remote.service
+package com.yesandroid.locationapp.data.remote.service
 
-import com.task.data.dto.recipes.RecipesItem
+import com.yesandroid.locationapp.data.dto.recipes.RecipesItem
 import retrofit2.Response
 import retrofit2.http.GET
 

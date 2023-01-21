@@ -1,10 +1,11 @@
-package com.task.data.remote
+package com.yesandroid.locationapp.data.remote
 
-import com.task.data.remote.moshiFactories.MyKotlinJsonAdapterFactory
+import com.yesandroid.locationapp.data.remote.moshiFactories.MyKotlinJsonAdapterFactory
 import com.squareup.moshi.Moshi
-import com.task.BuildConfig
-import com.task.data.remote.moshiFactories.MyStandardJsonAdapters
-import com.task.BASE_URL
+import com.squareup.picasso.BuildConfig
+//import com.yesandroid.locationapp.BuildConfig
+import com.yesandroid.locationapp.data.remote.moshiFactories.MyStandardJsonAdapters
+import com.yesandroid.locationapp.BASE_URL
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -45,6 +46,7 @@ class ServiceGenerator @Inject constructor() {
             if (BuildConfig.DEBUG) {
                 loggingInterceptor.apply { level = HttpLoggingInterceptor.Level.BODY }
             }
+
             return loggingInterceptor
         }
 
