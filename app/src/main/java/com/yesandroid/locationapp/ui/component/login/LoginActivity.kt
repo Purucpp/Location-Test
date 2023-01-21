@@ -10,6 +10,7 @@ import com.yesandroid.locationapp.data.dto.login.LoginResponse
 import com.yesandroid.locationapp.databinding.LoginActivityBinding
 import com.yesandroid.locationapp.ui.base.BaseActivity
 import com.yesandroid.locationapp.ui.component.recipes.RecipesListActivity
+import com.yesandroid.locationapp.ui.component.screenone.ScreenOne
 import com.yesandroid.locationapp.utils.*
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -62,7 +63,7 @@ class LoginActivity : BaseActivity() {
     }
 
     private fun navigateToMainScreen() {
-        val nextScreenIntent = Intent(this, RecipesListActivity::class.java)
+        val nextScreenIntent = Intent(this, ScreenOne::class.java)
         startActivity(nextScreenIntent)
         finish()
     }
